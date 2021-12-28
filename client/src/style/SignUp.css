@@ -1,0 +1,19 @@
+.Name {
+    margin: 10px 0px;
+}
+
+.password {
+    margin: 10px 0px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

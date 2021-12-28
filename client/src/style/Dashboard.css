@@ -1,0 +1,77 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(165, 0, 143);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar > h1 {
+    margin: 0;
+}
+
+.navbar > div {
+    display: flex;
+}
+
+.Avatar {
+    margin-right: 10px;
+}
+
+.Content {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content > .List {
+    height: 80%;
+    width: 80%;
+}
+
+.SinglList {
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 55);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.SinglList > h1 {
+    margin: 0;
+    width: 25%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .List {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .SinglList {
+        height: 40vh;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .SinglList > h1 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+}
